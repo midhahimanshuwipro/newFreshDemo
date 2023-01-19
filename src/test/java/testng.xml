@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Smoketest suite" verbose="1">
+    <parameter name="NativeApp" value="iPhone"/>
+
+
+
+    <test name="Sample Test Cases" >
+        <!--<parameter name="NativeApp" value="iPhone"/> -->
+        <classes>
+
+            <class name="CalculatorAppTest"> </class>
+
+
+
+            <!--     <class name="CarouselPageTest"/>
+                  <class name="PinchZoomPageTest"/>
+                  <class name="DragandDropTest"/>
+                  <class name="DoubleTapPageTest"/>
+                  <class name="SliderPageTest"/>
+                  <class name="SwipeLeftPageTest"/>
+                  <class name="LongPressTest"/>
+                  <class name="ScrollPageTest"/>
+                <class name="SMSAppTest" />
+                <class name="SettingsPageTest"></class>
+                <class name="ContactAppTest"></class>
+               -->
+
+
+
+            
+              </classes>
+       
+    </test>
+
+
+
+      </suite>
